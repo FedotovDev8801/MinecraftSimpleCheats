@@ -1,0 +1,11 @@
+{
+  "gui.mc_simple_cheats.cheats_menu.button_night": "Night",
+  "gui.mc_simple_cheats.cheats_menu.button_midnight": "Midnight",
+  "gui.mc_simple_cheats.cheats_menu.button_give_barrier": "Give Barrier",
+  "gui.mc_simple_cheats.cheats_menu.button_clear_inventory": "Clear Inventory",
+  "gui.mc_simple_cheats.cheats_menu.button_day": "Day",
+  "key.mc_simple_cheats.cheats_menu_open": "Cheats Menu",
+  "gui.mc_simple_cheats.cheats_menu.label_inventory": "Inventory",
+  "gui.mc_simple_cheats.cheats_menu.label_day_cycle": "Day Cycle",
+  "gui.mc_simple_cheats.cheats_menu.button_sunset": "Sunset"
+}

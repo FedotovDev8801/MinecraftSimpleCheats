@@ -1,0 +1,142 @@
+{
+  "_fv": 66,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 219,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_day_cycle",
+          "text": {
+            "fixedValue": "Day Cycle"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 112,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_day",
+          "text": "Day",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "DayStart"
+          },
+          "width": 40,
+          "height": 20,
+          "x": 112,
+          "y": 57
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_sunset",
+          "text": "Sunset",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "SunsetStart"
+          },
+          "width": 56,
+          "height": 20,
+          "x": 112,
+          "y": 78
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_night",
+          "text": "Night",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "NightStart"
+          },
+          "width": 51,
+          "height": 20,
+          "x": 112,
+          "y": 99
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_midnight",
+          "text": "Midnight",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "MidnightStart"
+          },
+          "width": 67,
+          "height": 20,
+          "x": 112,
+          "y": 120
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_inventory",
+          "text": {
+            "fixedValue": "Inventory"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 213,
+          "y": 43
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_give_barrier",
+          "text": "Give Barrier",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "GiveBarrier"
+          },
+          "width": 87,
+          "height": 20,
+          "x": 214,
+          "y": 57
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_clear_inventory",
+          "text": "Clear Inventory",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "ClearInventory"
+          },
+          "width": 103,
+          "height": 20,
+          "x": 214,
+          "y": 78
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

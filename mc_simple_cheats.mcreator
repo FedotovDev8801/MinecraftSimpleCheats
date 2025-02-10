@@ -1,0 +1,281 @@
+{
+  "mod_elements": [
+    {
+      "name": "NightStart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "night_start",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/simplemccheats/procedures/NightStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MidnightStart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "midnight_start",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/simplemccheats/procedures/MidnightStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DayStart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "day_start",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/simplemccheats/procedures/DayStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SunsetStart",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sunset_start",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/simplemccheats/procedures/SunsetStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "GiveBarrier",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_barrier",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/simplemccheats/procedures/GiveBarrierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ClearInventory",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/simplemccheats/procedures/ClearInventoryProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheatsMenu",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheats_menu",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/simplemccheats/network/CheatsMenuButtonMessage.java",
+          "src/main/java/com/fedotovdev/simplemccheats/client/gui/CheatsMenuScreen.java",
+          "src/main/java/com/fedotovdev/simplemccheats/world/inventory/CheatsMenuMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "CheatsMenuOpener",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheats_menu_opener",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/simplemccheats/procedures/CheatsMenuOpenerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CheatsMenuOpen",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheats_menu_open",
+      "metadata": {
+        "files": [
+          "src/main/java/com/fedotovdev/simplemccheats/network/CheatsMenuOpenMessage.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "gui.mc_simple_cheats.cheats_menu.button_night": "Night",
+      "gui.mc_simple_cheats.cheats_menu.button_midnight": "Midnight",
+      "gui.mc_simple_cheats.cheats_menu.button_give_barrier": "Give Barrier",
+      "gui.mc_simple_cheats.cheats_menu.button_clear_inventory": "Clear Inventory",
+      "gui.mc_simple_cheats.cheats_menu.button_day": "Day",
+      "key.mc_simple_cheats.cheats_menu_open": "Cheats Menu",
+      "gui.mc_simple_cheats.cheats_menu.label_inventory": "Inventory",
+      "gui.mc_simple_cheats.cheats_menu.label_day_cycle": "Day Cycle",
+      "gui.mc_simple_cheats.cheats_menu.button_sunset": "Sunset"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "mc_simple_cheats",
+    "modName": "Simple Ingame Cheats Menu",
+    "version": "1.0.0",
+    "author": "Daniil, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "com.fedotovdev.simplemccheats"
+  },
+  "mcreatorVersion": 202400232117
+}
